@@ -29,5 +29,12 @@ export default defineNuxtConfig({
     enabled: true, // Always enable purgecss
   },
 
-  modules: ["@nuxt/image", "@nuxt/fonts", "@nuxtjs/seo", 'nuxt-gtag', 'nuxt-purgecss']
+  modules: [
+    "@nuxt/image",
+    "@nuxt/fonts",
+    "@nuxtjs/seo",
+    'nuxt-gtag',
+    'nuxt-purgecss',
+    '@nuxtjs/tailwindcss'
+  ]
 })
