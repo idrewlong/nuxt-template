@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     'nuxt-gtag',
     'nuxt-purgecss',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon'
   ]
 })
